@@ -86,6 +86,44 @@ body {
   text-decoration: none;
 }
 
+/* Skills layout and badges */
+.skill-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.skill-group h3 {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  color: #0f172a;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border: 1px solid #e6eef8;
+  color: #0f172a;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.04);
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.skill-badge:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.09);
+  background: linear-gradient(180deg, #ffffff 0%, #eef2ff 100%);
+}
+
 footer {
   text-align: center;
   margin-top: 16px;
@@ -96,5 +134,14 @@ footer {
 @media (min-width: 640px) {
   .contact-card {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .skill-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 960px) {
+  .skill-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
