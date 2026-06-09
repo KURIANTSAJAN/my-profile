@@ -34,92 +34,132 @@
 
       <section class="section contact">
         <h2>Contact</h2>
-        <div class="contact-card">
-          <div>
-            <p><strong>Email</strong></p>
-            <p><a href="mailto:kuriantsajan2007ff@gmail.com">kuriantsajan2007ff@gmail.com</a></p>
-            <p><strong>Phone</strong></p>
-            <p><a href="tel:+917012192262">+91 7012192262</a></p>
-          </div>
-          <div>
-            <p><strong>College</strong></p>
-            <p>Toch Institute of Science and Technology</p>
-          </div>
+        <div class="contact-grid">
+          <!-- Email -->
+          <a href="mailto:kuriantsajan2007ff@gmail.com" class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-content">
+              <h3>Email</h3>
+              <p>kuriantsajan2007ff@gmail.com</p>
+            </div>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+917012192262" class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div class="contact-content">
+              <h3>Phone</h3>
+              <p>+91 7012192262</p>
+            </div>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com/ku_.ri.an" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <div class="contact-icon">📸</div>
+            <div class="contact-content">
+              <h3>Instagram</h3>
+              <p>@ku_.ri.an</p>
+            </div>
+          </a>
         </div>
       </section>
 
       <section class="section skills">
         <h2>Skills</h2>
-        <div class="skill-grid">
-          <div class="skill-group">
-            <h3>Programming Languages</h3>
-            <div class="badges">
-              <span class="skill-badge">C</span>
-              <span class="skill-badge">C++</span>
-              <span class="skill-badge">Python</span>
-              <span class="skill-badge">Java</span>
-              <span class="skill-badge">HTML</span>
-              <span class="skill-badge">CSS</span>
+        <div class="skills-container">
+          <!-- Programming Languages -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">{'<'}</span>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skills-list">
+              <span class="skill-chip">C</span>
+              <span class="skill-chip">C++</span>
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">Java</span>
+              <span class="skill-chip">HTML</span>
+              <span class="skill-chip">CSS</span>
             </div>
           </div>
 
-          <div class="skill-group">
-            <h3>Web Development</h3>
-            <div class="badges">
-              <span class="skill-badge">Responsive Web Design</span>
-              <span class="skill-badge">Frontend Development</span>
-              <span class="skill-badge">JavaScript</span>
-              <span class="skill-badge">GitHub Pages</span>
+          <!-- Web Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">🌐</span>
+              <h3>Web Development</h3>
+            </div>
+            <div class="skills-list">
+              <span class="skill-chip">Responsive Web Design</span>
+              <span class="skill-chip">Frontend Development</span>
+              <span class="skill-chip">JavaScript</span>
+              <span class="skill-chip">GitHub Pages</span>
             </div>
           </div>
 
-          <div class="skill-group">
-            <h3>Core Engineering Skills</h3>
-            <div class="badges">
-              <span class="skill-badge">Data Structures &amp; Algorithms</span>
-              <span class="skill-badge">Object-Oriented Programming</span>
-              <span class="skill-badge">Problem Solving</span>
-              <span class="skill-badge">Software Development Fundamentals</span>
-              <span class="skill-badge">Database Concepts</span>
-              <span class="skill-badge">Debugging &amp; Testing</span>
+          <!-- Core Engineering Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">⚙️</span>
+              <h3>Core Engineering Skills</h3>
+            </div>
+            <div class="skills-list">
+              <span class="skill-chip">Data Structures &amp; Algorithms</span>
+              <span class="skill-chip">Object-Oriented Programming</span>
+              <span class="skill-chip">Problem Solving</span>
+              <span class="skill-chip">Software Development Fundamentals</span>
+              <span class="skill-chip">Database Concepts</span>
+              <span class="skill-chip">Debugging &amp; Testing</span>
             </div>
           </div>
 
-          <div class="skill-group">
-            <h3>Academic Tools</h3>
-            <div class="badges">
-              <span class="skill-badge">Visual Studio Code</span>
-              <span class="skill-badge">Git</span>
-              <span class="skill-badge">GitHub</span>
-              <span class="skill-badge">Microsoft Office</span>
-              <span class="skill-badge">Google Workspace</span>
-              <span class="skill-badge">Canva</span>
-              <span class="skill-badge">Figma</span>
+          <!-- Academic Tools -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">🛠️</span>
+              <h3>Academic Tools</h3>
+            </div>
+            <div class="skills-list">
+              <span class="skill-chip">Visual Studio Code</span>
+              <span class="skill-chip">Git</span>
+              <span class="skill-chip">GitHub</span>
+              <span class="skill-chip">Microsoft Office</span>
+              <span class="skill-chip">Google Workspace</span>
+              <span class="skill-chip">Canva</span>
+              <span class="skill-chip">Figma</span>
             </div>
           </div>
 
-          <div class="skill-group">
-            <h3>Soft Skills</h3>
-            <div class="badges">
-              <span class="skill-badge">Communication</span>
-              <span class="skill-badge">Teamwork</span>
-              <span class="skill-badge">Leadership</span>
-              <span class="skill-badge">Critical Thinking</span>
-              <span class="skill-badge">Time Management</span>
-              <span class="skill-badge">Adaptability</span>
-              <span class="skill-badge">Quick Learning</span>
+          <!-- Soft Skills -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">💡</span>
+              <h3>Soft Skills</h3>
+            </div>
+            <div class="skills-list">
+              <span class="skill-chip">Communication</span>
+              <span class="skill-chip">Teamwork</span>
+              <span class="skill-chip">Leadership</span>
+              <span class="skill-chip">Critical Thinking</span>
+              <span class="skill-chip">Time Management</span>
+              <span class="skill-chip">Adaptability</span>
+              <span class="skill-chip">Quick Learning</span>
             </div>
           </div>
 
-          <div class="skill-group">
-            <h3>Interests</h3>
-            <div class="badges">
-              <span class="skill-badge">Web Development</span>
-              <span class="skill-badge">Artificial Intelligence</span>
-              <span class="skill-badge">Software Engineering</span>
-              <span class="skill-badge">Open Source Technologies</span>
-              <span class="skill-badge">Technology Trends</span>
-              <span class="skill-badge">Fitness &amp; Self-Improvement</span>
+          <!-- Interests -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <span class="category-icon">🚀</span>
+              <h3>Interests</h3>
+            </div>
+            <div class="skills-list">
+              <span class="skill-chip">Web Development</span>
+              <span class="skill-chip">Artificial Intelligence</span>
+              <span class="skill-chip">Software Engineering</span>
+              <span class="skill-chip">Open Source Technologies</span>
+              <span class="skill-chip">Technology Trends</span>
+              <span class="skill-chip">Fitness &amp; Self-Improvement</span>
             </div>
           </div>
         </div>
